@@ -25,3 +25,4 @@ sud.cells <- sample_vorcells(spdf = sud.split,
                              iter.max = 100, sample.type = "nonaligned",
                              ncore = 1)
 plot(sud.cells)
+plot(sud.split, border = "red", add = T)
